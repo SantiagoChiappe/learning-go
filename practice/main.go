@@ -21,4 +21,11 @@ func main() {
 	circleRadius := 15.5
 	circumference := circleRadius * 2 * math.Pi
 	fmt.Printf("Circumference: %.2f\n", circumference)
+
+	val := 12.5825
+	val = math.Round(val*1000) / 1000
+	fmt.Println(val)
+
+	val = 148.4789
+	fmt.Printf("%.1f\n", val)
 }
